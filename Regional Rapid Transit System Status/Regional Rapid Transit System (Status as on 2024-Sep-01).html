@@ -1,0 +1,909 @@
+<head>
+    <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Google AdSense Using Machine Learning Code -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3071098372371409",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "https://raw.githubusercontent.com/ashishjain1547/bookSummariesAndReviews/main/links_to_book_clubs.json",
+                success: function (result) {
+                    let grouplink = JSON.parse(result)['current book club'];
+                    $("#customWhatsAppGroupLinkWrapper").html(
+                        `
+                        <h2 class="custom_link_h2"><a href="${grouplink}" target="_blank"> 
+                            <span>Join us on:</span>
+                            <span class="customLink"><i class="fa fa-whatsapp"></i> Whatsapp </span>
+                            </a>
+                        </h2>
+                        `
+                    );
+                }
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .customLink {
+            background-color: #4CAF50;
+            border: none;
+            color: white !important;
+            padding: 8px 13px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .customLink:hover {
+            text-decoration: none;
+        }
+
+        div.code-block-decoration.footer {
+            display: none;
+        }
+
+        button.export-sheets-button-wrapper {
+            display: none;
+        }
+    </style>
+
+    <style>
+        .custom_link_h2 a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .custom_link_h2 a:hover {
+            color: black;
+        }
+
+        .custom_link_h2 a:active {
+            color: black;
+        }
+
+        .custom_link_h2 span {
+            translate: 0px -5px;
+            display: inline-block;
+        }
+
+        .custom_link_h2 img {
+            width: 100px;
+            padding: 0px;
+            border: none;
+            box-shadow: none;
+        }
+
+        .customul {
+            list-style: none;
+        }
+
+        [aria-hidden='true'] {
+            display: none;
+        }
+    </style>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+
+        .up {
+            transform: rotate(-135deg);
+            -webkit-transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+    </style>
+
+    <style>
+        table, tr, th, td {
+            border: 1px solid var(--border-color-base, #a2a9b1);
+            padding: 3px;
+        }
+
+        .wikitable {
+            background-color: var(--background-color-neutral-subtle, #f8f9fa);
+            color: var(--color-base, #202122);
+            margin: 1em 0;
+            border-collapse: collapse;
+        }
+        
+        .customTable th:nth-child(2),
+        .customTable th:nth-child(5),
+        .customTable th:nth-child(6),
+
+        .customTable td:nth-child(2), 
+        .customTable td:nth-child(4),
+        .customTable td:nth-child(6),
+        .customTable td:nth-child(7){
+            display: none;
+        }
+        
+        .mw-editsection {
+            display: none;
+        }    
+    </style>
+</head>
+
+<div id="customWhatsAppGroupLinkWrapper"></div>
+
+For more on Railways: <a class="customLink" href="https://survival8.blogspot.com/2024/08/railways-tracker.html" target="_blank">Railways Tracker</a>
+
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfaD-kha_c1YlC8QqJ8c0i9lnyBbq_CMvFJJBLUQXPG4k9Sp23L5_B0JGPo_bUJ8BpQ269DonNMYlY2HyHPiRSFkZNLwAINk7DlUqZZLwUn8fyg-E1k4FeaMzOB2Lrc3Y1fpL4jKqUe9k3yuJ2BrXMWNULzZ4b-3Jpm6MP0pRQqhheDKA3CE0thg6-5eBI/s1024/RRTS_train.jpg" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="600" data-original-height="770" data-original-width="1024" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfaD-kha_c1YlC8QqJ8c0i9lnyBbq_CMvFJJBLUQXPG4k9Sp23L5_B0JGPo_bUJ8BpQ269DonNMYlY2HyHPiRSFkZNLwAINk7DlUqZZLwUn8fyg-E1k4FeaMzOB2Lrc3Y1fpL4jKqUe9k3yuJ2BrXMWNULzZ4b-3Jpm6MP0pRQqhheDKA3CE0thg6-5eBI/s600/RRTS_train.jpg"/></a></div>
+
+<h2>1: Delhi-Meerut RRTS</h2>
+
+<table width="100%" class="wikitable customTable" style="text-align: center;">
+    <caption>
+    </caption>
+    <tbody><tr>
+    <th colspan="9" align="center" style="background:#D8514D;"><span style="color:WHITE;"><b>Delhi–Meerut RRTS</b></span>
+    </th></tr>
+    <tr>
+    <th rowspan="2">No.
+    </th>
+    <th rowspan="2">Station Code
+    </th>
+    <th colspan="1">Station Name
+    </th>
+    <th rowspan="2">Integration
+    </th>
+    <th rowspan="2">Station Layout
+    </th>
+    <th rowspan="2">Platform Level Type
+    </th>
+    <th rowspan="2">Status
+    </th>
+    <th rowspan="2">Opening
+    </th></tr>
+    <tr>
+    <th colspan="1">English
+    </th>
+    <th>Hindi
+    </th></tr>
+    <tr>
+    <td>1
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:AS1_Jangpura_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/AS1_Jangpura_RRTS_station.svg/20px-AS1_Jangpura_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/AS1_Jangpura_RRTS_station.svg/30px-AS1_Jangpura_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c8/AS1_Jangpura_RRTS_station.svg/40px-AS1_Jangpura_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b>Jangpura</b>
+    </td>
+    <td><b>जंगपुरा</b>
+    </td>
+    <td>None
+    </td>
+    <td>Underground
+    </td>
+    <td>Island
+    </td>
+    <td rowspan="4" style="background:#FFB; color:black;vertical-align:middle;text-align:center;" class="table-partial">Construction works underway
+    </td>
+    <td rowspan="1">June 2025
+    </td></tr>
+    <tr>
+    <td>2
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:Z00_Sarai_Kale_Khan_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Z00_Sarai_Kale_Khan_RRTS_station.svg/20px-Z00_Sarai_Kale_Khan_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Z00_Sarai_Kale_Khan_RRTS_station.svg/30px-Z00_Sarai_Kale_Khan_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Z00_Sarai_Kale_Khan_RRTS_station.svg/40px-Z00_Sarai_Kale_Khan_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Sarai_Kale_Khan_RRTS_station" title="Sarai Kale Khan RRTS station">Sarai Kale Khan</a></b>
+    </td>
+    <td><b>सराय काले खान</b>
+    </td>
+    <td><span style="background-color:#FC8EAC;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Pink_Line_(Delhi_Metro)" title="Pink Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Pink Line</span></a></span><br><b><a href="https://en.wikipedia.org/wiki/Hazrat_Nizamuddin_railway_station" title="Hazrat Nizamuddin railway station">Hazrat Nizamuddin railway station</a></b> <br><b><a href="https://en.wikipedia.org/wiki/Sarai_Kale_Khan_Inter-State_Bus_Terminus" title="Sarai Kale Khan Inter-State Bus Terminus">Sarai Kale Khan ISBT</a></b>
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side/Island
+    </td>
+    <td rowspan="3">December 2024
+    </td></tr>
+    <tr>
+    <td>3
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A01_New_Ashok_Nagar_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/5/54/A01_New_Ashok_Nagar_RRTS_station.svg/20px-A01_New_Ashok_Nagar_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/54/A01_New_Ashok_Nagar_RRTS_station.svg/30px-A01_New_Ashok_Nagar_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/54/A01_New_Ashok_Nagar_RRTS_station.svg/40px-A01_New_Ashok_Nagar_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b>New Ashok Nagar</b>
+    </td>
+    <td><b>न्यू अशोक नगर</b>
+    </td>
+    <td><span style="background-color:#4169E1;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Blue_Line_(Delhi_Metro)" title="Blue Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Blue Line</span></a></span>
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td></tr>
+    <tr>
+    <td>4
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A02_Anand_Vihar_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/A02_Anand_Vihar_RRTS_station.svg/20px-A02_Anand_Vihar_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/A02_Anand_Vihar_RRTS_station.svg/30px-A02_Anand_Vihar_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b1/A02_Anand_Vihar_RRTS_station.svg/40px-A02_Anand_Vihar_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Anand_Vihar_RRTS_station" title="Anand Vihar RRTS station">Anand Vihar</a></b>
+    </td>
+    <td><b>आनंद विहार</b>
+    </td>
+    <td><span style="background-color:#4169E1;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Blue_Line_(Delhi_Metro)" title="Blue Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Blue Line</span></a></span> <br><span style="background-color:#FC8EAC;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Pink_Line_(Delhi_Metro)" title="Pink Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Pink Line</span></a></span> <br><b><a href="https://en.wikipedia.org/wiki/Anand_Vihar_Railway_Terminal" class="mw-redirect" title="Anand Vihar Railway Terminal">Anand Vihar Railway Terminal</a></b> <br><b><a href="https://en.wikipedia.org/wiki/Swami_Vivekanand_Inter_State_Bus_Terminus" title="Swami Vivekanand Inter State Bus Terminus">Anand Vihar ISBT</a></b>
+    </td>
+    <td>Underground
+    </td>
+    <td>Island
+    </td></tr>
+    <tr>
+    <td>5
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A03_Sahibabad_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/32/A03_Sahibabad_RRTS_station.svg/20px-A03_Sahibabad_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/32/A03_Sahibabad_RRTS_station.svg/30px-A03_Sahibabad_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/32/A03_Sahibabad_RRTS_station.svg/40px-A03_Sahibabad_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Sahibabad_RRTS_station" title="Sahibabad RRTS station">Sahibabad</a></b>
+    </td>
+    <td><b>साहिबाबाद</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td>
+    <td rowspan="5" style="background:#9EFF9E;color:black;vertical-align:middle;text-align:center;" class="table-yes">Completed
+    <ul><li>Around 2350 piles, 230 pile caps, 110 piers, and 50 pier caps have been built.</li>
+    <li>Over 260 segments have been cast and 4 spans have been erected.</li></ul>
+    </td>
+    <td rowspan="5">20 October 2023
+    </td></tr>
+    <tr>
+    <td>6
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A04_Ghaziabad_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/A04_Ghaziabad_RRTS_station.svg/20px-A04_Ghaziabad_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/A04_Ghaziabad_RRTS_station.svg/30px-A04_Ghaziabad_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2c/A04_Ghaziabad_RRTS_station.svg/40px-A04_Ghaziabad_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Ghaziabad_RRTS_station" title="Ghaziabad RRTS station">Ghaziabad</a></b>
+    </td>
+    <td><b>ग़ाज़ियाबाद</b>
+    </td>
+    <td><span style="background-color:#FF4040;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Red_Line_(Delhi_Metro)" title="Red Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Red Line</span></a></span><br>
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side/Island
+    </td></tr>
+    <tr>
+    <td>7
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A05_Guldhar_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/A05_Guldhar_RRTS_station.svg/20px-A05_Guldhar_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/A05_Guldhar_RRTS_station.svg/30px-A05_Guldhar_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0d/A05_Guldhar_RRTS_station.svg/40px-A05_Guldhar_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Guldhar_RRTS_station" title="Guldhar RRTS station">Guldhar</a></b>
+    </td>
+    <td><b>गुलधर</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td></tr>
+    <tr>
+    <td>8
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A06_Duhai_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/A06_Duhai_RRTS_station.svg/20px-A06_Duhai_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/A06_Duhai_RRTS_station.svg/30px-A06_Duhai_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/A06_Duhai_RRTS_station.svg/40px-A06_Duhai_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Duhai_RRTS_station" title="Duhai RRTS station">Duhai</a></b>
+    </td>
+    <td><b>दुहाई</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td></tr>
+    <tr>
+    <td>9
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:AS2_Duhai_Depot_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/AS2_Duhai_Depot_RRTS_station.svg/20px-AS2_Duhai_Depot_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/AS2_Duhai_Depot_RRTS_station.svg/30px-AS2_Duhai_Depot_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/10/AS2_Duhai_Depot_RRTS_station.svg/40px-AS2_Duhai_Depot_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Duhai_Depot_RRTS_station" title="Duhai Depot RRTS station">Duhai Depot</a></b>
+    </td>
+    <td><b>दुहाई डिपो</b>
+    </td>
+    <td>None
+    </td>
+    <td><a href="https://en.wikipedia.org/wiki/At-grade_railway" class="mw-redirect" title="At-grade railway">At-grade</a>
+    </td>
+    <td>Side
+    </td></tr>
+    <tr>
+    <td>10
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A07_Murad_Nagar_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/A07_Murad_Nagar_RRTS_station.svg/20px-A07_Murad_Nagar_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/A07_Murad_Nagar_RRTS_station.svg/30px-A07_Murad_Nagar_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6b/A07_Murad_Nagar_RRTS_station.svg/40px-A07_Murad_Nagar_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Murad_Nagar_RRTS_station" title="Murad Nagar RRTS station">Murad Nagar</a></b>
+    </td>
+    <td><b>मुराद नगर</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td>
+    <td rowspan="4" style="background:#9EFF9E;color:black;vertical-align:middle;text-align:center;" class="table-yes">Completed
+    <ul><li>Casting testing of 17 piles for the initial pile load test completed</li>
+    <li>17&nbsp;km (11&nbsp;mi) of road widening work has been completed</li>
+    <li>A total of 370 piles and 28 pile caps have been completed</li></ul>
+    </td>
+    <td rowspan="3">6 March 2024
+    </td></tr>
+    <tr>
+    <td>11
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A8_Modinagar_South_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/A8_Modinagar_South_RRTS_station.svg/20px-A8_Modinagar_South_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/A8_Modinagar_South_RRTS_station.svg/30px-A8_Modinagar_South_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/A8_Modinagar_South_RRTS_station.svg/40px-A8_Modinagar_South_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Modinagar_South_RRTS_station" title="Modinagar South RRTS station">Modinagar South</a></b>
+    </td>
+    <td><b>मोदीनगर दक्षिण</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td></tr>
+    <tr>
+    <td>12
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A09_Modinagar_North_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/9/97/A09_Modinagar_North_RRTS_station.svg/20px-A09_Modinagar_North_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/97/A09_Modinagar_North_RRTS_station.svg/30px-A09_Modinagar_North_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/97/A09_Modinagar_North_RRTS_station.svg/40px-A09_Modinagar_North_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Modinagar_North_RRTS_station" title="Modinagar North RRTS station">Modinagar North</a></b>
+    </td>
+    <td><b>मोदीनगर उत्तर</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td></tr>
+    <tr>
+    <td>13
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A10_Meerut_South_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/A10_Meerut_South_RRTS_station.svg/20px-A10_Meerut_South_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/A10_Meerut_South_RRTS_station.svg/30px-A10_Meerut_South_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9c/A10_Meerut_South_RRTS_station.svg/40px-A10_Meerut_South_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Meerut_South_RRTS_station" title="Meerut South RRTS station">Meerut South</a></b>
+    </td>
+    <td><b>मेरठ दक्षिण</b>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Meerut_Metro" title="Meerut Metro">Meerut Metro</a></b>
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td>
+    <td>18 August 2024
+    </td></tr>
+    <tr>
+    <td>14
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A13_Shatabdi_Nagar_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/A13_Shatabdi_Nagar_RRTS_station.svg/20px-A13_Shatabdi_Nagar_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/A13_Shatabdi_Nagar_RRTS_station.svg/30px-A13_Shatabdi_Nagar_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f1/A13_Shatabdi_Nagar_RRTS_station.svg/40px-A13_Shatabdi_Nagar_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b>Shatabdi Nagar</b>
+    </td>
+    <td><b>शताब्दी नगर</b>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Meerut_Metro" title="Meerut Metro">Meerut Metro</a></b>
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td>
+    <td rowspan="3" style="background:#FFB; color:black;vertical-align:middle;text-align:center;" class="table-partial">Construction works underway
+    </td>
+    <td rowspan="3">June 2025
+    </td></tr>
+    <tr>
+    <td>15
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A17_Begumpul_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/A17_Begumpul_RRTS_station.svg/20px-A17_Begumpul_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0c/A17_Begumpul_RRTS_station.svg/30px-A17_Begumpul_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0c/A17_Begumpul_RRTS_station.svg/40px-A17_Begumpul_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b>Begumpul</b>
+    </td>
+    <td><b>बेगमपुल</b>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Meerut_Metro" title="Meerut Metro">Meerut Metro</a></b>
+    </td>
+    <td>Underground
+    </td>
+    <td>Island
+    </td></tr>
+    <tr>
+    <td>16
+    </td>
+    <td><span typeof="mw:File/Frameless"><a href="https://en.wikipedia.org/wiki/File:A21_Modipuram_RRTS_station.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/A21_Modipuram_RRTS_station.svg/20px-A21_Modipuram_RRTS_station.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/A21_Modipuram_RRTS_station.svg/30px-A21_Modipuram_RRTS_station.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/A21_Modipuram_RRTS_station.svg/40px-A21_Modipuram_RRTS_station.svg.png 2x" data-file-width="1000" data-file-height="1000"></a></span>
+    </td>
+    <td><b>Modipuram</b>
+    </td>
+    <td><b>मोदीपुरम</b>
+    </td>
+    <td><b><a href="https://en.wikipedia.org/wiki/Meerut_Metro" title="Meerut Metro">Meerut Metro</a></b>
+    </td>
+    <td>Elevated
+    </td>
+    <td>Side
+    </td></tr></tbody></table>
+
+<h3>Note</h3>
+<a href="https://en.wikipedia.org/wiki/Shaheed_Sthal_metro_station" target="_blank">Shaheed Sthal metro station (New Bus Adda)</a> is the interchange station between Delhi Metro and <a href="https://en.wikipedia.org/wiki/Ghaziabad_RRTS_station" target="_blank">Ghaziabad RapidX station</a>.
+
+<h2>2: Delhi-Alwar Regional Rapid Transit System</h2>
+
+<table class="wikitable" style="text-align: center;">
+    <tbody><tr>
+    <th>No.
+    </th>
+    <th>Station Name
+    </th>
+    <th>Connections
+    </th>
+    <th>Layout
+    </th>
+    <th>Status
+    </th></tr>
+    <tr>
+    <th colspan="5">Phase-1
+    </th></tr>
+    <tr>
+    <td>1
+    </td>
+    <td><b>Sarai Kale Khan</b>
+    </td>
+    <td><span style="background-color:#FC8EAC;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Pink_Line_(Delhi_Metro)" title="Pink Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Pink Line</span></a></span><br><b><a href="https://en.wikipedia.org/wiki/Hazrat_Nizamuddin_railway_station" title="Hazrat Nizamuddin railway station">Hazrat Nizamuddin railway station</a></b>
+    <p><b><a href="https://en.wikipedia.org/wiki/Sarai_Kale_Khan_Inter-State_Bus_Terminus" title="Sarai Kale Khan Inter-State Bus Terminus">Sarai Kale Khan ISBT</a></b>
+    </p>
+    </td>
+    <td>Elevated
+    </td>
+    <td rowspan="16">Planned
+    </td></tr>
+    <tr>
+    <td>2
+    </td>
+    <td><b>INA</b>
+    </td>
+    <td><span style="background-color:#FFDF00;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Yellow_Line_(Delhi_Metro)" title="Yellow Line (Delhi Metro)"><span style="color:#000;font-weight:bold;font-size:inherit;white-space:nowrap">Yellow Line</span></a></span> <span style="background-color:#FC8EAC;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Pink_Line_(Delhi_Metro)" title="Pink Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Pink Line</span></a></span>
+    </td>
+    <td>Underground
+    </td></tr>
+    <tr>
+    <td>3
+    </td>
+    <td><b>Munirka</b>
+    </td>
+    <td><span style="background-color:#CC338B;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Magenta_Line_(Delhi_Metro)" title="Magenta Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Magenta Line</span></a></span>
+    </td>
+    <td>Underground
+    </td></tr>
+    <tr>
+    <td>4
+    </td>
+    <td><b>Aerocity</b>
+    </td>
+    <td><span style="background-color:#FF8C00;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Delhi_Airport_Metro_Express" class="mw-redirect" title="Delhi Airport Metro Express"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Airport Express</span></a></span> <span style="background-color:#bf9723;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Golden_Line_(Delhi_Metro)" title="Golden Line (Delhi Metro)"><span style="color:#000;font-weight:bold;font-size:inherit;white-space:nowrap">Golden Line</span></a></span>
+    </td>
+    <td>Underground
+    </td></tr>
+    <tr>
+    <td>5
+    </td>
+    <td><b>Udyog Vihar</b>
+    </td>
+    <td><span style="background-color:#FFDF00;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Yellow_Line_(Delhi_Metro)" title="Yellow Line (Delhi Metro)"><span style="color:#000;font-weight:bold;font-size:inherit;white-space:nowrap">Yellow Line</span></a></span>
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>6
+    </td>
+    <td><b>Gurgaon Sector-17</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>7
+    </td>
+    <td><b>Rajiv Chowk</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>8
+    </td>
+    <td><b>Kherki Daula</b>
+    </td>
+    <td>None
+    </td>
+    <td>Underground
+    </td></tr>
+    <tr>
+    <td>9
+    </td>
+    <td><b>Manesar</b>
+    </td>
+    <td>None
+    </td>
+    <td>Underground
+    </td></tr>
+    <tr>
+    <td>10
+    </td>
+    <td><b>Panchgaon</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>11
+    </td>
+    <td><b>Bilaspur Chowk</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>12
+    </td>
+    <td><b>Dharuhera</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <th colspan="5">Phase-2
+    </th></tr>
+    <tr>
+    <td>13
+    </td>
+    <td><b>MBIR</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>14
+    </td>
+    <td><b>Rewari</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>15
+    </td>
+    <td><b>Bawal</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>16
+    </td>
+    <td><b>SNB</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    
+    
+    <tr>
+    <td>17
+    </td>
+    <td><b>Shahjahanpur</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td>
+    <td rowspan="4">Planned
+    </td></tr>
+    <tr>
+    <td>18
+    </td>
+    <td><b>Neemrana</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>19
+    </td>
+    <td><b>Behror</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>20
+    </td>
+    <td><b>Sotanala</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <th colspan="5">Phase-3
+    </th></tr>
+    <tr>
+    <td>21
+    </td>
+    <td><b>Khairthal</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td>
+    <td rowspan="2">Planned
+    </td></tr>
+    <tr>
+    <td>22
+    </td>
+    <td><b>Alwar</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr></tbody></table>
+
+<div class="mw-heading mw-heading2"><h2 id="Status_updates">Status updates</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Delhi%E2%80%93Alwar_Regional_Rapid_Transit_System&amp;action=edit&amp;section=4" title="Edit section: Status updates"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+
+<ul><li><b>June 2018:</b> Final <a href="https://en.wikipedia.org/wiki/Detailed_Project_Report" class="mw-redirect" title="Detailed Project Report">Detailed Project Report</a> (DPR) of the project is approved by the <a href="https://en.wikipedia.org/wiki/Government_of_Haryana" title="Government of Haryana">Government of Haryana</a>.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span class="cite-bracket">[</span>14<span class="cite-bracket">]</span></a></sup></li>
+    <li><b>December 2018:</b> The Phase-I construction project proposal for <a href="https://en.wikipedia.org/wiki/New_Delhi" title="New Delhi">Delhi</a>-<a href="https://en.wikipedia.org/wiki/Gurgaon" title="Gurgaon">Gurgaon</a>-<a href="https://en.wikipedia.org/wiki/Shahjahanpur" title="Shahjahanpur">Shahjahanpur</a>-<a href="https://en.wikipedia.org/wiki/Neemrana" title="Neemrana">Neemrana</a>-<a href="https://en.wikipedia.org/wiki/Behror" title="Behror">Behror</a> stretch is approved by NCRTC.</li>
+    <li><b>February 2019:</b> The Government of Haryana approved the project.<sup id="cite_ref-:0_15-0" class="reference"><a href="#cite_note-:0-15"><span class="cite-bracket">[</span>15<span class="cite-bracket">]</span></a></sup></li>
+    <li><b>June 2019:</b> The <a href="https://en.wikipedia.org/wiki/Government_of_Rajasthan" title="Government of Rajasthan">Government of Rajasthan</a> approved the project.<sup id="cite_ref-:0_15-1" class="reference"><a href="#cite_note-:0-15"><span class="cite-bracket">[</span>15<span class="cite-bracket">]</span></a></sup></li>
+    <li><b>November 2019:</b> Bids for the construction of the Gurgaon section of the project were invited.</li>
+    <li><b>September 2020:</b> Construction started on a 10 km stretch in Gurgaon.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span class="cite-bracket">[</span>16<span class="cite-bracket">]</span></a></sup></li>
+    <li><b>November 2021:</b> Work on the project's key stretch awaits centre's nod.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span class="cite-bracket">[</span>17<span class="cite-bracket">]</span></a></sup></li>
+    <li><b>May 2022:</b> Pre-construction work begins on the project's corridor in Gurgaon.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span class="cite-bracket">[</span>18<span class="cite-bracket">]</span></a></sup></li>
+    <li><b>March 2023:</b> Pre-construction work complete in Gurgaon.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span class="cite-bracket">[</span>19<span class="cite-bracket">]</span></a></sup></li>
+    <li><b>October 2023:</b> NCRTC proposes alignment change for the corridor.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span class="cite-bracket">[</span>20<span class="cite-bracket">]</span></a></sup></li>
+    <li><b>January 2024:</b> NCRTC proposes changes to the corridor. Phase 1 will consist of only up to Dharuhera station, with the further 4 stations till SNB omitted.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span class="cite-bracket">[</span>21<span class="cite-bracket">]</span></a></sup></li></ul>
+
+<h2>3: Delhi–Sonipat–Panipat Regional Rapid Transit System</h2>
+
+<table class="wikitable" style="text-align: center;">
+    <tbody><tr>
+    <th>No.
+    </th>
+    <th>Station name
+    </th>
+    <th>Connections
+    </th>
+    <th>Layout
+    </th>
+    <th>Status
+    </th></tr>
+    <tr>
+    <td>1
+    </td>
+    <td><b>Sarai Kale Khan</b>
+    </td>
+    <td><span style="background-color:#FC8EAC;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Pink_Line_(Delhi_Metro)" title="Pink Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Pink Line</span></a></span><br><b><a href="https://en.wikipedia.org/wiki/Hazrat_Nizamuddin_railway_station" title="Hazrat Nizamuddin railway station">Hazrat Nizamuddin railway station</a></b>
+    <p><b><a href="https://en.wikipedia.org/wiki/Sarai_Kale_Khan_Inter-State_Bus_Terminus" title="Sarai Kale Khan Inter-State Bus Terminus">Sarai Kale Khan ISBT</a></b>
+    </p>
+    </td>
+    <td>Elevated
+    </td>
+    <td rowspan="16">under-construction (<i>Sarai kale khan</i>)<br><br> Planned (<i>Rest</i>)
+    </td></tr>
+    <tr>
+    <td>2
+    </td>
+    <td><b>Indraprastha</b>
+    </td>
+    <td><span style="background-color:#4169E1;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Blue_Line_(Delhi_Metro)" title="Blue Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Blue Line</span></a></span>
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>3
+    </td>
+    <td><b>Kashmere Gate</b>
+    </td>
+    <td><span style="background-color:#FF4040;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Red_Line_(Delhi_Metro)" title="Red Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Red Line</span></a></span> <span style="background-color:#FFDF00;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Yellow_Line_(Delhi_Metro)" title="Yellow Line (Delhi Metro)"><span style="color:#000;font-weight:bold;font-size:inherit;white-space:nowrap">Yellow Line</span></a></span> <span style="background-color:#553592;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Violet_Line_(Delhi_Metro)" title="Violet Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Violet Line</span></a></span>
+    <p><b><a href="https://en.wikipedia.org/wiki/Maharana_Pratap_Inter_State_Bus_Terminus" title="Maharana Pratap Inter State Bus Terminus">Kashmere Gate ISBT</a></b>
+    </p>
+    </td>
+    <td>Underground
+    </td></tr>
+    <tr>
+    <td>4
+    </td>
+    <td><b>Burari Crossing</b>
+    </td>
+    <td><span style="background-color:#FC8EAC;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Pink_Line_(Delhi_Metro)" title="Pink Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Pink Line</span></a></span>
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>5
+    </td>
+    <td><b>Mukarba Chowk</b>
+    </td>
+    <td><span style="background-color:#CC338B;border:.075em solid #000;padding:0 .3em"><a href="https://en.wikipedia.org/wiki/Magenta_Line_(Delhi_Metro)" title="Magenta Line (Delhi Metro)"><span style="color:#FFF;font-weight:bold;font-size:inherit;white-space:nowrap">Magenta Line</span></a></span>
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>6
+    </td>
+    <td><b>Alipur</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>7
+    </td>
+    <td><b>Kundli</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>8
+    </td>
+    <td><b>KMP Interchange</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>9
+    </td>
+    <td><b>Rajeev Gandhi Education City</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>10
+    </td>
+    <td><b>Murthal</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>11
+    </td>
+    <td><b>Barhi</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>12
+    </td>
+    <td><b>Gannaur</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>13
+    </td>
+    <td><b>Samalkha</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>14
+    </td>
+    <td><b>Panipat South</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr>
+    <tr>
+    <td>15
+    </td>
+    <td><b>Panipat North</b>
+    </td>
+    <td>None
+    </td>
+    <td>Underground
+    </td></tr>
+    <tr>
+    <td>16
+    </td>
+    <td><b>Panipat Depot Station</b>
+    </td>
+    <td>None
+    </td>
+    <td>Elevated
+    </td></tr></tbody></table>
+
+
+<div class="mw-heading mw-heading2"><h2 id="See_also">See also</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Delhi%E2%80%93Sonipat%E2%80%93Panipat_Regional_Rapid_Transit_System&amp;action=edit&amp;section=5" title="Edit section: See also"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+
+<ul><li><a href="https://en.wikipedia.org/wiki/Delhi%E2%80%93Alwar_Regional_Rapid_Transit_System" title="Delhi–Alwar Regional Rapid Transit System">Delhi–Alwar Regional Rapid Transit System</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Delhi%E2%80%93Meerut_Regional_Rapid_Transit_System" title="Delhi–Meerut Regional Rapid Transit System">Delhi–Meerut Regional Rapid Transit System</a></li>
+
+<li>
+    <a href="https://en.wikipedia.org/wiki/Delhi%E2%80%93Sonipat%E2%80%93Panipat_Regional_Rapid_Transit_System" target="_blank">
+        Delhi–Sonipat–Panipat Regional Rapid Transit System
+    </a>
+</li>
+</ul>
