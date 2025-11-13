@@ -215,12 +215,35 @@
 
 <span class="customLink toggleBtn">Toggle All Sections</span>
 
+<h3 class="customGurugramMetroHeader"><span class="arrow up"></span> Gurugram Metro</h3>
+<div id="customGurugramMetro">
+    <ol>
+        <li>
+            <a href="https://survival8.blogspot.com/2025/11/recent-developments-of-metro-in.html" target="_blank">
+                Recent Developments of Metro in Gurugram (Nov 2025)
+            </a>
+        </li>
+    </ol>
+</div>
+
 <h3 class="customGurugramRRTSHeader"><span class="arrow up"></span> Gurugram RRTS</h3>
 <div id="customGurugramRRTS">
     <ol class="customOl">
         <li>
+            <a href="https://survival8.blogspot.com/2025/11/after-delhi-meerut-two-new-rapid-rail.html" target="_blank">
+                After Delhi-Meerut, two new rapid rail routes get approval -- Check proposed routes, cost and other details
+            </a>
+        </li>
+
+        <li>
+            <a href="https://survival8.blogspot.com/2025/11/recent-developments-of-rrts-in-gurugram.html" target="_blank">
+                Recent Developments of RRTS in Gurugram (Nov 2025)
+            </a>
+        </li>
+
+        <li>
             <a href="https://survival8.blogspot.com/2024/08/delhis-rrts-station-will-clear-hazrat.html" target="_blank">
-                Delhi's RRTS Station will clear Hazrat Nizamuddin congestion
+                Delhi's RRTS Station will clear Hazrat Nizamuddin congestion (Sep 2024)
             </a>
         </li>
 
@@ -251,6 +274,11 @@
 </div>
 
 <script>
+    $('h3.customGurugramMetroHeader').click(function () {
+        $("div#customGurugramMetro").fadeToggle();
+        $("h3.customGurugramMetroHeader > .arrow").toggleClass('up').toggleClass('down');
+    });
+
     $('h3.customGurugramRRTSHeader').click(function () {
         $("div#customGurugramRRTS").fadeToggle();
         $("h3.customGurugramRRTSHeader > .arrow").toggleClass('up').toggleClass('down');
